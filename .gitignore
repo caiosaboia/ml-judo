@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Testing & Linting cache
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data files (Download from Kaggle / GitHub)
+data/*.csv
+data/*.zip
+data/*.tar.gz
+!data/.gitkeep
